@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="cssfile.css"/>
+    <style>
+        .form{
+            background-color: beige;
+            text-align: center;
+        }
+        .table{
+            margin-left: 550px;
+        }
+       h2{
+        text-align: center;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="link">
+    <a href="home.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    </div>
+    
+    <h2>Contact Form</h2>
+    <div class="form">
+    <form>
+        <label>Full Name:</label>
+        <input type="text" name="name" placeholder="Enter your Full Name" required/>
+        <br/><br/>
+        <label > Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required/>
+        <br/><br/>
+        <label>Mobile No.:</label>
+        <input type="tel" name="Mobile" placeholder="Enter your mobile number" required/>
+        <br/><br/>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required/>
+        <br/><br/>
+        <label>Date of birth:</label>
+        <input type="date" name="date" required/>
+        <br/><br/>
+        <label>Gender:</label>
+        <input type="radio" name="gender"/>Male
+        <input type="radio" name="gender"/>Female
+        <input type="radio" name="gender"/>Other
+        <br/><br/>
+        <label>Courses:</label>
+        <select>
+            <option>BTech</option>
+            <option>BA</option>
+            <option>BBA</option>
+            <option>Bsc</option>
+        </select>
+        <br/><br/>
+        <label>Address:</label>
+        <textarea rows="4" cols="30" placeholder="Enter your address"></textarea>
+        <br/><br/>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+    
+        <h2 style="text-align: center;">Contact Details</h2>
+        <div class="table">
+    <table border="1">
+  <tr>
+    <th>Particulars</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>University Name</td>
+    <td>Geeta University</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Panipat, Haryana</td>
+  </tr>
+  <tr>
+    <td>Establishment Year</td>
+    <td>2022</td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td>Private University</td>
+  </tr>
+  <tr>
+    <td>Approvals</td>
+    <td>UGC, AICTE, BCI, PCI</td>
+  </tr>
+  <tr>
+    <td>Courses Offered</td>
+    <td>B.Tech, BBA, BCA, MBA, MCA, B.Sc, BA, MA, Ph.D</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

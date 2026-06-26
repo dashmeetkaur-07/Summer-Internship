@@ -1,0 +1,41 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+table{
+    margin: auto;
+    width: 900px;
+    height: 450px;
+    border-color: bisque;
+    border: 2px double black;
+    background-color: ivory;
+}
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+header{
+    background-color: navy;
+    color: aliceblue;
+    font-size: 25px;
+    height: 90px;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    background-color: navy;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+}
+button{
+    background-color: navy;
+    color: aliceblue;
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+}

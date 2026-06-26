@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+  line-height: 1.6;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #0a3d62;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+h2{
+    margin-top: 15px;
+}
+.link a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.link a:hover {
+  color: #feca57;
+}
+section {
+  padding: 40px 60px;
+}
+.home {
+  text-align: center;
+}
+.home h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #0a3d62;
+}
+.home p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.home img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0a3d62;
+  border-bottom: 2px solid #0a3d62;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.list {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.list  ol  li {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.list ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.list ul li {
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(10, 61, 98);
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.form {
+  background-color: white;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+.form input,
+.form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(204, 204, 204);
+}
+.form button {
+  background-color: #0a3d62;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form button:hover {
+  background-color: #3c6382;
+}
+.table2 {
+  margin-top: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}

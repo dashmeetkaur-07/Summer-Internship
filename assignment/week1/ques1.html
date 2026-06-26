@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Hub</title>
+    <style>
+        body {
+            color: rgb(51, 51, 51);
+            font-style: oblique;
+            background-color: rgb(255, 248, 225);
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: rgb(240, 180, 182);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border: 3px solid white;
+            border-radius: 50%;
+        }
+        h2 {
+            color: rgb(1, 119, 146);
+            text-decoration: underline;
+        }
+        .table{
+            border: 2px solid black;
+            background-color:  rgb(240, 180, 182);
+            width: 350px;
+            border-radius: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            padding: 10px;
+        }
+        .footer {
+            text-align: center;
+            background-color:  rgb(240, 180, 182);
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+        <div class="header">
+        <img src="./uml-use-case-diagram.png"  height="200px" width="200px" alt=" Logo">
+        <h1>Food Hub</h1>
+        <p>All Your Favorites in One Place</p>
+        </div>
+        <h2>About Us</h2>
+        <p>
+            Welcome to Food Hub! We serve fresh and delicious meals
+            prepared with high-quality ingredients. Enjoy a cozy atmosphere and
+            excellent customer service.
+        </p>
+        <div class="menu">
+        <h2>Menu</h2>
+        <h3>Starters</h3>
+        <ul>
+            <li>Garlic Bread</li>
+            <li>French Fries</li>
+            <li>Soup of the Day</li>
+        </ul>
+        <h3>Main Course</h3>
+        <ol>
+            <li>Grilled Chicken</li>
+            <li>Vegetable Pasta</li>
+            <li>Cheese Burger</li>
+        </ol>
+        <h3>Desserts</h3>
+        <ul>
+            <li>Chocolate Cake</li>
+            <li>Ice Cream</li>
+            <li>Fruit Salad</li>
+        </ul>
+        </div>
+         <div class="table">
+        <h2>Table Reservation</h2>
+
+        <form>
+            <label>Full Name:</label>
+            <input type="text" placeholder="enter your name"required>
+                <br/><br/>
+            <label>Email:</label>
+            <input type="email"placeholder="enter your email" required>
+            <br/><br/>
+            <label>Phone Number:</label>
+            <input type="tel" required>
+            <br/><br/>
+            <label>Number of Guests:</label>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5+</option>
+            </select>
+            <br/><br/>
+            <label>Reservation Date:</label>
+            <input type="date" required>
+            <br/><br/>
+            <input type="submit" value="Reserve Table">
+        </form>
+    </div>
+    <div class="hours">
+        <h2>Opening Hours</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Opening Time</th>
+                <th>Closing Time</th>
+            </tr>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>10:00 AM</td>
+                <td>10:00 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>11:00 AM</td>
+                <td>11:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>12:00 PM</td>
+                <td>9:00 PM</td>
+            </tr>
+        </table>
+    </div>
+   
+    <div class="footer">
+        <p>&copy; 2026 Food Hub. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>

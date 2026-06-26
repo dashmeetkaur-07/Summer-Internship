@@ -1,0 +1,32 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+h1{
+  background-color: rgb(242, 207, 238);
+}
+*{
+  text-align: center;
+}
+div{
+  background-color:rgb(242,207,238) ;
+}
+h2{
+  background-color: rgb(242,207,238) ;
+}
+p{
+  color: red;
+}
+.note{
+  font-size: 20px;
+}
+#id-selector-demo{
+  color: green;
+}
+li[value="4"]{
+
+  color: blue;
+} /*this is an attribute selector in which [] brackets are used li[value] where li is an element and value is an attribute*

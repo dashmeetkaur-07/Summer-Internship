@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #form{
+            text-align: center;
+            background-color: rgb(236, 220, 157);
+            font-style: italic;
+        }
+        #form1{
+            background-color: rgb(174, 163, 118);
+            text-align: center;
+            font-style: italic;
+        }
+        #form2{
+            text-align: center;
+            background-color: rgb(224, 215, 178);
+            font-style: italic;
+        }
+        h2{
+            color: chocolate;
+            text-align: center;
+            font-style: italic;
+            background-color: cornsilk;
+        }
+        button{
+            color: black;
+            background-color:  bisque;
+             border-radius: 10px ;
+             padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="background-color:rgb(236, 220, 157) ;">Registration Form</h2>
+    <div id="form">
+    
+    <form>
+        <label>Username:</label>
+        <input type="text" name="username"placeholder="enter your username" required/>
+        <br/>
+        <br/>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="enter your password" required/>
+        <br/>
+        <br/>
+        <button type="submit" > Submit</button>
+    </form>
+    </div>
+    <h2 style="background-color:rgb(174, 163, 118) ;">Student Registration From</h2>
+    <div id="form1">
+    
+    <form>
+        <label>Full Name:</label>
+        <input type="text" name="name" placeholder="Enter your Full Name" required/>
+        <br/><br/>
+        <label > Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required/>
+        <br/><br/>
+        <label>Mobile No.:</label>
+        <input type="tel" name="Mobile" placeholder="Enter your mobile number" required/>
+        <br/><br/>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required/>
+        <br/><br/>
+        <label>Date of birth:</label>
+        <input type="date" name="date" required/>
+        <br/><br/>
+        <label>Gender:</label>
+        <input type="radio" name="gender"/>Male
+        <input type="radio" name="gender"/>Female
+        <input type="radio" name="gender"/>Other
+        <br/><br/>
+        <label>Courses:</label>
+        <select>
+            <option>BTech</option>
+            <option>BA</option>
+            <option>BBA</option>
+            <option>Bsc</option>
+        </select>
+        <br/><br/>
+        <label>Skills:</label>
+        <input type="checkbox" name="skills"/>HTML
+        <input type="checkbox" name="skills"/>CSS
+        <input type="checkbox" name="skills"/>JAVASCRIPT
+        <br/><br/>
+        <label>Address:</label>
+        <textarea rows="4" cols="30" placeholder="Enter your address"></textarea>
+        <br/><br/>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+    <h2 style="background-color: rgb(224, 215, 178);">Job Application Form</h2>
+    <div id="form2">
+    <form>
+        
+         <label>Full Name:</label>
+        <input type="text" name="name" placeholder="Enter your Full Name" required/>
+        <br/><br/>
+        <label > Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required/>
+        <br/><br/>
+        <label>Mobile No.:</label>
+        <input type="tel" name="Mobile" placeholder="Enter your mobile number" required/>
+        <br/><br/>
+        <label>Date of birth:</label>
+        <input type="date" name="date" required/>
+        <br/><br/>
+        <label>Upload Resume:</label>
+        <input type="file"/>
+        <br/><br/>
+        <label>Experience(Years):</label>
+        <input type="number" name="number"/>
+        <br/><br/>
+        <label>Preferred Location:</label>
+        <select>
+            <option>Karnal</option>
+            <option>Mohali</option>
+            <option>Noida</option>
+            <option>Dehradun</option>
+        </select>
+        <br/><br/>
+        <label>Gender:</label>
+        <input type="radio" name="gender"/>Male
+        <input type="radio" name="gender"/>Female
+        <input type="radio" name="gender"/>Other
+        <br/><br/>
+         <label>Skills:</label>
+        <input type="checkbox" name="skills"/>HTML
+        <input type="checkbox" name="skills"/>CSS
+        <input type="checkbox" name="skills"/>JAVASCRIPT
+        <br/><br/>
+        <label>Why should we hire you?:</label>
+        <textarea rows="4" cols="30"></textarea>
+        <br/><br/>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+</body>
+</html>
+
+

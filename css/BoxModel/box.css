@@ -1,0 +1,26 @@
+.box{
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    border: 2px dashed rgb(74, 141, 125);
+    border-width: 5px;
+    background-color: rgb(194, 238, 228);
+}
+h1{
+    color: rgb(81, 139, 120);
+}
+.box1{
+    border: 1px dashed black;
+    height: 100px;
+    width: 200px;
+    padding-top: 75px;
+   
+    text-align: center;
+    background-color: rgb(139, 187, 236);
+}
+button{
+    color: brown;
+    background-color: rgb(163, 238, 213);
+    text-align: center;
+}
